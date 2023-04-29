@@ -1,0 +1,157 @@
+{
+    "1": {
+        "Node": [
+            "Function main",
+            "main",
+            "C:/Users/eo238/Desktop/ES3Demo_V2/DemoApp/SbomTestP1_01262023/WebServer.py",
+            "153",
+            "157"
+        ],
+        "AppCalls": [],
+        "AffectedCalls": {}
+    },
+    "2": {
+        "Node": [
+            "Function print_hi",
+            "print_hi",
+            "C:/Users/eo238/Desktop/ES3Demo_V2/DemoApp/SbomTestP1_01262023/main.py",
+            "15",
+            "17"
+        ],
+        "AppCalls": [],
+        "AffectedCalls": {}
+    },
+    "3": {
+        "Node": [
+            "Function helloHandler.do_GET",
+            "do_GET",
+            "C:/Users/eo238/Desktop/ES3Demo_V2/DemoApp/SbomTestP1_01262023/WebServer.py",
+            "13",
+            "73"
+        ],
+        "AppCalls": [],
+        "AffectedCalls": {}
+    },
+    "4": {
+        "Node": [
+            "Function helloHandler.do_POST",
+            "do_POST",
+            "C:/Users/eo238/Desktop/ES3Demo_V2/DemoApp/SbomTestP1_01262023/WebServer.py",
+            "76",
+            "141"
+        ],
+        "AppCalls": [
+            {
+                "Caller": [
+                    "Function do_POST",
+                    "C:/Users/eo238/Desktop/ES3Demo_V2/DemoApp/SbomTestP1_01262023/WebServer.py",
+                    76,
+                    141,
+                    1,
+                    ""
+                ],
+                "Callee": [
+                    "Function main",
+                    "C:/Users/eo238/Desktop/ES3Demo_V2/DemoApp/SbomTestP1_01262023/venv/Lib/site-packages/nvflare/lighter/provision.py",
+                    30,
+                    100,
+                    1,
+                    ""
+                ]
+            },
+            {
+                "Caller": [
+                    "Function do_POST",
+                    "C:/Users/eo238/Desktop/ES3Demo_V2/DemoApp/SbomTestP1_01262023/WebServer.py",
+                    76,
+                    141,
+                    -1,
+                    ""
+                ],
+                "Callee": [
+                    "Function safe_load",
+                    "C:/Users/eo238/Desktop/ES3Demo_V2/DemoApp/SbomTestP1_01262023/venv/Lib/site-packages/yaml/__init__.py",
+                    117,
+                    125,
+                    -1,
+                    ""
+                ]
+            }
+        ],
+        "AffectedCalls": {
+            "nvflare": {
+                "CVE-2022-34668": [
+                    {
+                        "Caller": [
+                            "Function do_POST",
+                            "C:/Users/eo238/Desktop/ES3Demo_V2/DemoApp/SbomTestP1_01262023/WebServer.py",
+                            76,
+                            141,
+                            1,
+                            ""
+                        ],
+                        "Callee": [
+                            "Function main",
+                            "C:/Users/eo238/Desktop/ES3Demo_V2/DemoApp/SbomTestP1_01262023/venv/Lib/site-packages/nvflare/lighter/provision.py",
+                            30,
+                            100,
+                            1,
+                            ""
+                        ]
+                    }
+                ],
+                "CVE-2022-31605": [
+                    {
+                        "Caller": [
+                            "Function do_POST",
+                            "C:/Users/eo238/Desktop/ES3Demo_V2/DemoApp/SbomTestP1_01262023/WebServer.py",
+                            76,
+                            141,
+                            1,
+                            ""
+                        ],
+                        "Callee": [
+                            "Function main",
+                            "C:/Users/eo238/Desktop/ES3Demo_V2/DemoApp/SbomTestP1_01262023/venv/Lib/site-packages/nvflare/lighter/provision.py",
+                            30,
+                            100,
+                            1,
+                            ""
+                        ]
+                    }
+                ],
+                "CVE-2022-31604": [
+                    {
+                        "Caller": [
+                            "Function do_POST",
+                            "C:/Users/eo238/Desktop/ES3Demo_V2/DemoApp/SbomTestP1_01262023/WebServer.py",
+                            76,
+                            141,
+                            1,
+                            ""
+                        ],
+                        "Callee": [
+                            "Function main",
+                            "C:/Users/eo238/Desktop/ES3Demo_V2/DemoApp/SbomTestP1_01262023/venv/Lib/site-packages/nvflare/lighter/provision.py",
+                            30,
+                            100,
+                            1,
+                            ""
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "5": {
+        "Node": [
+            "Function helloHandler.respond",
+            "respond",
+            "C:/Users/eo238/Desktop/ES3Demo_V2/DemoApp/SbomTestP1_01262023/WebServer.py",
+            "144",
+            "149"
+        ],
+        "AppCalls": [],
+        "AffectedCalls": {}
+    }
+}
