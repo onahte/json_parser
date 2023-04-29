@@ -27,6 +27,6 @@ python3 json_parser.py LabeledAllCalls.json
     - Under Node Labels choose:
         - Show Labels
         - set Outline Size to 10.0 __[for better visual]__
-        
-<img src="https://github.com/ppauliuchenka02/json_parser/blob/main/graph.png" alt="output" height="500">
+
+<img src="https://github.com/ppauliuchenka02/json_parser/blob/main/graph.png" alt="output">
 <!-- ![Output](https://github.com/ppauliuchenka02/json_parser/blob/main/graph.png) -->
